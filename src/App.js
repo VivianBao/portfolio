@@ -12,8 +12,8 @@ function App() {
       <div className="content-container">
         <div className="content">
           <Landing />
-          <ProjectIndex />
-          <Contact />
+          {/* <ProjectIndex />
+          <Contact /> */}
         </div>
         <div className="side-bar">
           <SideBar/>
