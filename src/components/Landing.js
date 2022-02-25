@@ -15,6 +15,9 @@ export default function Landing() {
             <h3>Full Stack Web Developer</h3> {/* 28pt */}
             <h5>Ruby on Rails | HTML | CSS | Javascript | React</h5>  {/* 20pt */}
           </div>
+          <div className="profile-pic"></div>
+          <div className="dark-blue-block"></div>
+          <div className="blue-block"></div>
         </div>
       </div>
 
