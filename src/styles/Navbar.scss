@@ -5,10 +5,12 @@
   height: 60px;
   position: fixed;
   background:transparent;
+  display: flex;
+  align-items: center;
   h4 {
     font-weight: 400;
     font-family: 'Noto Serif', serif;
     color: $blue;
-    margin: 5px 10px;
+    margin: 5px 20px;
   }
 }
