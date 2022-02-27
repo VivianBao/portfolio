@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/Contact.scss"
 
 export default function Contact() {
-  const colorList = [["$gray", '103'], ["$light-blue", '152'], ["$blue", '117'], ["dark-blue", '84']]
+  const colorList = [["#B3B5AA", '90px'], ["#698B98", '130px'], ["#5A7581", '100px'], ["#2B3542", '75px']]
   const blockElements = colorList.map((set, index)=> {
     return(
       <div className={`block block-${index + 1}`} style={{backgroundColor: `${set[0]}`, height: `${set[1]}`}}></div>
