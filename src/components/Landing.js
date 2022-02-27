@@ -17,7 +17,9 @@ export default function Landing() {
           </div>
           <div className="blue-block"></div>
           <div className="dark-blue-block"></div>
-          <div className="profile-pic"></div>
+          <div className="profile-pic" style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/profile.png'})`
+          }}></div>
         </div>
       </div>
 

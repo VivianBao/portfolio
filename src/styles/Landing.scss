@@ -1,6 +1,7 @@
 @import './_colors.scss';
 
 
+
 .landing-container{
   height: 100%;
   width: 100%;
@@ -18,7 +19,7 @@
     padding-top: 150px;
     padding-right: 80px;
     h4 {
-      color: $background-brown;
+      // color: $blue;
       margin: 20px 0;
     }
     h5{
@@ -27,27 +28,29 @@
   }
   .profile-pic{
     position: absolute;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-    background-color: $dark-blue;
-    top: 90px;
-    left: -150px;
+    top: 130px;
+    left: -100px;
+    background-color: rgba(105, 139, 152, 0.5);
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .dark-blue-block{
     position: absolute;
     width: 240px;
-    height: 450px;
+    height: 400px;
     background-color: $blue;
-    top: -100px;
-    left: -110px;
+    top: -80px;
+    left: -80px;
   }
 
   .blue-block{
     position: absolute;
     width: 250px;
-    height: 520px;
+    height: 500px;
     background-color: $light-blue;
     top: 30px;
     left: -200px;
