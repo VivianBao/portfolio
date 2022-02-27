@@ -8,16 +8,16 @@ export default function Landing() {
       <div className="landing-container">
         <div className="landing--brown-block">
           <div className="text">
-            <h1>Wei An</h1>          {/* 72pt */}
-            <h1>Bow</h1>             {/* 72pt */}
-            <h4>Vivian -She/Her-</h4>   {/* 25pt */}
-            <h3>Software Engineer</h3>  {/* 28pt */}
-            <h3>Full Stack Web Developer</h3> {/* 28pt */}
-            <h5>Ruby on Rails | HTML | CSS | Javascript | React</h5>  {/* 20pt */}
+            <h1>Wei An</h1>
+            <h1>Bow</h1>
+            <h4>Vivian -She/Her-</h4>
+            <h3>Software Engineer</h3>
+            <h3>Full Stack Web Developer</h3>
+            <h5>Ruby on Rails | HTML | CSS | Javascript | React</h5>
           </div>
-          <div className="profile-pic"></div>
-          <div className="dark-blue-block"></div>
           <div className="blue-block"></div>
+          <div className="dark-blue-block"></div>
+          <div className="profile-pic"></div>
         </div>
       </div>
 

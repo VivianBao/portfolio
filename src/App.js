@@ -7,14 +7,16 @@ import SideBar from "./components/SideBar"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar/>
-      <Landing />
-        {/* <ProjectIndex />
-        <Contact /> */}
-      <SideBar/>
+      <div className="sections">
+        <Landing />
+        <ProjectIndex />
+        <Contact />
+        <SideBar/>
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
