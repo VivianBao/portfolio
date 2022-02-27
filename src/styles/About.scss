@@ -1,0 +1,39 @@
+@import './_colors.scss';
+
+.about--brown-block{
+  background-color: $brown;
+  color: $dark-blue;
+  text-align: right;
+  width: 550px;
+  height: 550px;
+  position: relative;
+  left: 25%;
+  top: 0;
+  .white-block{
+    background-color: #F9F9F2;
+    width: 480px;
+    height: 550px;
+    position: absolute;
+    bottom: -130px;
+    right: -120px;
+    .triangle{
+      position: absolute;
+      display: inline-block;
+      left: -296px;
+      top: -37px;
+    }
+    h2 {
+      position: absolute;
+      left: -150px;
+      font-family: 'Noto Serif', serif;
+      color: $dark-blue;
+      font-size: 42px;
+    }
+
+    h5{
+      font-size: 18px;
+      text-align: left;
+      padding: 60px 30px 10px 30px;
+    }
+  }
+}
