@@ -2,8 +2,8 @@ import React from "react"
 
 export default function Project() {
   return (
-    <>
-      <h2>Project</h2>
-    </>
+    <div className="project-card">
+      <div className="photo"></div>
+    </div>
   )
 }
