@@ -1,7 +1,5 @@
 @import './_colors.scss';
 
-
-
 .landing-container{
   height: 100%;
   width: 100%;
@@ -11,10 +9,10 @@
   color: $dark-blue;
   text-align: right;
   width: 550px;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 140px);
   position: relative;
   left: 30%;
-  top: 120px;
+  top: 140px;
   .text{
     padding-top: 120px;
     padding-right: 80px;
