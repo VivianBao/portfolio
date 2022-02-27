@@ -3,7 +3,7 @@ import "../styles/Navbar.scss"
 export default function Navbar() {
   return (
     <div className="navbar">
-      <p>Nav</p>
+      <h4>Wei An Bow</h4>
     </div>
   )
 }

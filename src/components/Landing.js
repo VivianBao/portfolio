@@ -8,8 +8,10 @@ export default function Landing() {
       <div className="landing-container">
         <div className="landing--brown-block">
           <div className="text">
-            <h1>Wei An</h1>
-            <h1>Bow</h1>
+            <div className="name">
+              <h1>Wei An</h1>
+              <h1>Bow</h1>
+            </div>
             <h4>Vivian -She/Her-</h4>
             <h3>Software Engineer</h3>
             <h3>Full Stack Web Developer</h3>
