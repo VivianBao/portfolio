@@ -1,14 +1,20 @@
 import "../styles/Navbar.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default function Navbar() {
+export default function Navbar(props) {
+
   return (
-    <div className="navbar">
+    <div className={"navbar " + (props.openMenu && "active")}>
       <h4>Bow.tw</h4>
       <div className="icons">
         <a href="#" target='_blank'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
         <a href="https://github.com/VivianBao" target='_blank'><FontAwesomeIcon icon="fa-brands fa-github" /></a>
-        <FontAwesomeIcon icon='bars' />
+        {/* <FontAwesomeIcon icon='bars' onClick={props.handleClick} /> */}
+        <div className="hamburger" onClick={props.handleClick}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
       </div>
     </div>
   )

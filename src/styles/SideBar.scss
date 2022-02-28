@@ -6,8 +6,12 @@
   background-color: $sidebar-white;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -300px;
   z-index: 2;
+  transition: all 1.5s ease;
+  &.active {
+    right: 0;
+  }
   ul {
     margin-top: 40vh;
 

@@ -5,6 +5,7 @@ import ProjectIndex from "./components/Projects"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import SideBar from "./components/SideBar"
+import {useState} from "react"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -15,10 +16,16 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 library.add(faBars, faLinkedinIn, faGithub);
 
 function App() {
+  const [openMenu, setOpenMenu] = useState(false)
+
+  function handleClick() {
+    setOpenMenu(prevValue => !prevValue)
+  }
+
   return (
     <div className="app">
-      <Navbar/>
-      <SideBar />
+      <Navbar openMenu={openMenu} handleClick={handleClick}/>
+      <SideBar openMenu={openMenu}/>
       <div className="sections">
         <Home />
         <About />
