@@ -10,7 +10,7 @@
   left: 25%;
   top: 0;
   .white-block{
-    background-color: #F9F9F2;
+    background-color: $white;
     width: 480px;
     height: 550px;
     position: absolute;
@@ -25,7 +25,8 @@
     h2 {
       position: absolute;
       left: -150px;
-      font-family: 'Noto Serif', serif;
+      // font-family: 'Noto Serif', serif;
+      font-weight: 400;
       color: $dark-blue;
       font-size: 42px;
     }

@@ -1,0 +1,62 @@
+@import './_colors.scss';
+
+.contact-container{
+  padding-top: 60px;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $white;
+}
+.title{
+  position: relative;
+  .blocks{
+    display: flex;
+    align-items: flex-end;
+    > * {
+      width: 120px;
+    }
+  }
+  h2{
+    position: absolute;
+    bottom: 5px;
+    left: 150px;
+  }
+}
+.form{
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  background-color: $brown;
+
+  form{
+    height: 500px;
+    width: 350px;
+    margin: 10px auto;
+
+    > * {
+      display: inline-block;
+      width: 100%;
+      min-height: 30px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    label{
+      margin: 10px 0 0 0;
+      text-align: left;
+    }
+
+    textarea{
+      height: 100px;
+    }
+
+    button{
+      margin-top: 50px;
+      background-color: $white;
+      color: $blue;
+      padding: 10px;
+    }
+  }
+}
