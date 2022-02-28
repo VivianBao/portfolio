@@ -1,0 +1,10 @@
+@import './_colors.scss';
+
+.side-bar{
+  height: 100vh;
+  width: 300px;
+  background-color: $transparent-white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}

@@ -6,12 +6,21 @@
   position: fixed;
   background:transparent;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   z-index: 2;
+  color: $blue;
   h4 {
     font-weight: 400;
     font-family: 'Noto Serif', serif;
-    color: $blue;
     margin: 5px 20px;
+  }
+
+  svg {
+    font-size: 25px;
+    margin-right: 20px;
+    &:hover{
+      cursor: pointer;
+    }
   }
 }
