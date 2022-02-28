@@ -5,7 +5,7 @@ export default function Navbar(props) {
 
   return (
     <div className={"navbar " + (props.openMenu && "active")}>
-      <h4>Bow.tw</h4>
+      <div className="logo"><a href="#home">Bow.tw</a></div>
       <div className="icons">
         <FontAwesomeIcon icon='angle-right' onClick={props.handleClick} className="exit"/>
         <a href="#" target='_blank'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>

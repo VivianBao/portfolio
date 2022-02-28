@@ -10,8 +10,10 @@
   align-items: center;
   z-index: 3;
   color: $blue;
+
   &.active .icons{
     margin-right: 70px;
+
     .hamburger{
       transition: all 1s ease;
       opacity: 0;
@@ -22,16 +24,24 @@
       opacity: 1;
     }
   }
-  h4 {
-    font-weight: 400;
-    font-family: 'Noto Serif', serif;
+
+  .logo {
     margin: 5px 20px;
+    a {
+      text-decoration: none;
+      color: $blue;
+      font-size: 20px;
+      font-weight: 400;
+      font-family: 'Noto Serif', serif;
+    }
   }
+
   .icons{
     transition: all 1.8s ease;
     display: flex;
     align-items: center;
     justify-content: center;
+
     > *{
       margin-right: 20px;
     }
@@ -47,6 +57,7 @@
       font-size: 25px;
       color: $blue;
       cursor: pointer;
+
       &:hover{
           color: $dark-blue;
       }
@@ -55,6 +66,7 @@
     .hamburger{
       transition: all 1s ease;
       height: 30px;
+
       > *{
         width: 24px;
         border-radius: 3px;
@@ -62,6 +74,7 @@
         height: 3px;
         margin: 5px;
       }
+
       &:hover .bar{
         background-color: $dark-blue;
       }
