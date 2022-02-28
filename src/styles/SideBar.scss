@@ -8,4 +8,17 @@
   top: 0;
   right: 0;
   z-index: 2;
+  ul {
+    margin-top: 40vh;
+
+    li {
+      list-style-type: none;
+      margin-bottom: 20px;;
+      a {
+        text-decoration: none;
+        color: $dark-blue;
+        font-size: 20px;
+      }
+    }
+  }
 }
