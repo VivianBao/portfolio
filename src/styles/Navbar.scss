@@ -11,7 +11,16 @@
   z-index: 3;
   color: $blue;
   &.active .icons{
-    margin-right: 108px;
+    margin-right: 70px;
+    .hamburger{
+      transition: all 1s ease;
+      opacity: 0;
+    }
+
+    .exit{
+      transition: all 1s ease;
+      opacity: 1;
+    }
   }
   h4 {
     font-weight: 400;
@@ -27,6 +36,11 @@
       margin-right: 20px;
     }
 
+    .exit{
+      transition: all 1s ease;
+      opacity: 0;
+    }
+
     svg {
       width: 28px;
       height: 30px;
@@ -39,6 +53,7 @@
     }
 
     .hamburger{
+      transition: all 1s ease;
       height: 30px;
       > *{
         width: 24px;
