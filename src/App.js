@@ -10,9 +10,9 @@ import {useState} from "react"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn, faGithub, fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faBars, faLinkedinIn, faGithub, faAngleRight);
+library.add(faBars, faLinkedinIn, faGithub, faAngleRight, fab);
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
