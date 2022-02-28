@@ -6,7 +6,7 @@ export default function About() {
     <div className="about-container" id="about">
       <div className="about--brown-block">
         <div className="white-block">
-          <img className="triangle" src="/triangle.png" alt="triangle" />
+          {/* <img className="triangle" src="/triangle.png" alt="triangle" /> */}
           <h2>About</h2>
           <h5>My name is Wei An, and I'm a full stack web developer who's passaionate at analzing problems and find the solutions.<br/><br/>
             I'm born and raised in Taiwan, and now living in Tokyo, Japan.<br/><br/>
@@ -15,6 +15,7 @@ export default function About() {
             While being capable of working alone on projects, I particularly enjoy working in a team, in which you're given the opportunity to look at things from different perspectives and learn from other people.
           </h5>
         </div>
+        <div className="transparent-block"></div>
       </div>
     </div>
   )

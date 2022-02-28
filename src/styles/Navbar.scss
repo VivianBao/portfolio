@@ -17,10 +17,13 @@
   }
 
   svg {
-    font-size: 25px;
     margin-right: 20px;
+    width: 28px;
+    font-size: 25px;
+    color: $blue;
+    cursor: pointer;
     &:hover{
-      cursor: pointer;
+        color: $dark-blue;
     }
   }
 }
