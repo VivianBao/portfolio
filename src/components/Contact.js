@@ -9,7 +9,7 @@ export default function Contact() {
     )
   })
   return(
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="form-container">
         <div className="title">
           <h2>Contact</h2>

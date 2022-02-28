@@ -5,13 +5,13 @@ export default function SideBar() {
     <div className="side-bar">
       <ul>
         <li>
-          <a href="#landing">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#projectindex">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>

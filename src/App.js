@@ -1,7 +1,7 @@
 import './styles/App.scss';
-import Landing from "./components/Landing"
+import Home from "./components/Home"
 import About from "./components/About"
-import ProjectIndex from "./components/ProjectIndex"
+import ProjectIndex from "./components/Projects"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import SideBar from "./components/SideBar"
@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <SideBar />
       <div className="sections">
-        <Landing />
+        <Home />
         <About />
         <ProjectIndex />
         <Contact />

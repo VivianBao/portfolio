@@ -3,7 +3,7 @@ import '../styles/About.scss'
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="about--brown-block">
         <div className="white-block">
           <img className="triangle" src="/triangle.png" alt="triangle" />

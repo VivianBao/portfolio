@@ -1,5 +1,4 @@
 import "../styles/Navbar.scss";
-import SideBar from "./SideBar"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
