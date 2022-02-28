@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <h4>Bow.tw</h4>
-      <div className="icon">
+      <div className="icons">
         <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
         <FontAwesomeIcon icon="fa-brands fa-github" />
         <FontAwesomeIcon icon='bars' />
