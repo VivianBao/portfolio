@@ -9,6 +9,14 @@
   position: relative;
   left: 25%;
   top: 0;
+  .transparent-block{
+    background-color: $transparent-white;
+    width: 480px;
+    height: 550px;
+    position: absolute;
+    bottom: -150px;
+    right: -100px;
+  }
   .white-block{
     background-color: $white;
     width: 480px;
@@ -16,6 +24,8 @@
     position: absolute;
     bottom: -130px;
     right: -120px;
+    z-index: 1;
+    box-shadow: 0 0 1.2px $gray;
     .triangle{
       position: absolute;
       display: inline-block;
@@ -24,7 +34,14 @@
     }
     h2 {
       position: absolute;
-      left: -150px;
+      left: -155px;
+      // top: -50px;
+      // writing-mode: vertical-rl;
+      // text-orientation: upright;
+      // letter-spacing: -5px;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-position: under;
       // font-family: 'Noto Serif', serif;
       font-weight: 400;
       color: $dark-blue;

@@ -18,13 +18,10 @@
 }
 
 .project-cards-container{
+  overflow: scroll;
   width: 75%;
-  margin: 15px auto 0 auto;
-  // display: grid;
-  // justify-items: center;
-  // align-items: center;
-  // row-gap: 20px;
-  // grid-template: 1fr 1fr/1fr 1fr 1fr;
+  margin: 15px auto;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +30,21 @@
   .project-card{
     width: 300px;
     height: 280px;
-    // border: solid 1px $blue;
-    background-color: rgba(249, 249, 242, 0.3)
+    border-radius: 10px;
+    background-color: rgba(249, 249, 242, 0.3);
+    .photo{
+      height: 80%;
+      width: 100%;
+      border-radius: 10px;
+      background-position: 10% 10%;
+      background-size: cover;
+    }
+    .icons{
+      color: $blue;
+      font-size: 18px;
+      > * {
+        margin: 5px 5px;
+      }
+    }
   }
 }

@@ -1,10 +1,10 @@
 import React from "react"
-import "../styles/ProjectIndex.scss";
+import "../styles/Projects.scss";
 import Project from "./Project"
 
-export default function ProjectIndex() {
+export default function Projects() {
   return (
-    <div className="project-index-container">
+    <div className="project-index-container" id="projects">
       <h2>Projects</h2>
       <div className="filter">
         <h5>Featured</h5>

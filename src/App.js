@@ -1,21 +1,35 @@
 import './styles/App.scss';
-import Landing from "./components/Landing"
+import Home from "./components/Home"
 import About from "./components/About"
-import ProjectIndex from "./components/ProjectIndex"
+import ProjectIndex from "./components/Projects"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import SideBar from "./components/SideBar"
+import {useState} from "react"
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedinIn, faGithub, fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faBars, faLinkedinIn, faGithub, faAngleRight, fab);
 
 function App() {
+  const [openMenu, setOpenMenu] = useState(false)
+
+  function handleClick() {
+    setOpenMenu(prevValue => !prevValue)
+  }
+
   return (
     <div className="app">
-      <Navbar/>
+      <Navbar openMenu={openMenu} handleClick={handleClick}/>
+      <SideBar openMenu={openMenu}/>
       <div className="sections">
-        <Landing />
+        <Home />
         <About />
         <ProjectIndex />
         <Contact />
-        <SideBar/>
       </div>
     </div>
   )

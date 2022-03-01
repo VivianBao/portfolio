@@ -1,13 +1,11 @@
 @import './_colors.scss';
 
-.contact-container{
-  padding-top: 60px;
-}
 .form-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   color: $white;
+  padding-top: 80px;
 }
 .title{
   position: relative;
@@ -26,14 +24,13 @@
 }
 .form{
   width: 480px;
-  height: 480px;
+  height: 450px;
   margin: 0 auto;
   background-color: $brown;
-
+  border-radius: 0 0 5px 5px;
   form{
-    height: 500px;
     width: 350px;
-    margin: 10px auto;
+    margin: 30px auto;
 
     > * {
       display: inline-block;
@@ -46,6 +43,7 @@
     label{
       margin: 10px 0 0 0;
       text-align: left;
+      font-size: 16px;
     }
 
     textarea{
@@ -53,10 +51,32 @@
     }
 
     button{
-      margin-top: 50px;
+      margin-top: 30px;
       background-color: $white;
       color: $blue;
       padding: 10px;
+      cursor: pointer;
+      &:hover{
+         background-color: $blue;
+         color: $white;
+      }
+    }
+  }
+}
+
+.contact-container{
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+      width: 28px;
+      font-size: 30px;
+      color: $blue;
+      margin: 20px;
+      &:hover{
+         color: $dark-blue;
+      }
     }
   }
 }
