@@ -16,7 +16,7 @@ export default function ProjectList({selected,handleSelect}) {
 
   const listElement = list.map(item => {
     return(
-      <div onClick={() => handleSelect(item.id)} className={`project-list-item ${selected === item.id ? "active" : ""}`}>
+      <div onClick={() => handleSelect(item.id)} className={`project-list-item ${selected === item.id ? "active" : ""}`} key={item.id}>
         <h5>{item.title}</h5>
       </div>
     )
