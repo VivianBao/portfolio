@@ -16,6 +16,9 @@
         border-radius: 5px;
         cursor: pointer;
         padding: 8px;
+        h5{
+          font-size: 18px;
+        }
       }
       .project-list-item.active{
         background-color: $brown;
@@ -35,47 +38,57 @@
   flex-wrap: wrap;
   gap: 15px 15px;
   .project-card{
-    // width: 300px;
-    // height: 280px;
-    width: 400px;
-    height: 380px;
+    width: 280px;
+    height: 280px;
     border-radius: 10px;
     background-color: rgba(249, 249, 242, 0.3);
     cursor: pointer;
     color: $blue;
+    position: relative;
     &:hover{
-      // opacity: 80%;
-      background-color: $blue;
+      // opacity: 70%;
+      // background-color: rgba(105, 139, 152, 0.3);
       z-index: 3;
       transform: scale(1.02);
       transition: all 1s ease;
-      .photo{
-
-      }
-      .icons{
-        color: white;
-      }
-      h5{
-        transition: all 0s ease;
-        color: white;
+      .project-card-info{
+        display: flex;
+        transition: all 2s ease;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
       }
     }
+
+    .project-card-info{
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border-radius: 10px;
+      top: 0;
+      left:0;
+      transition: all 2s ease;
+      display: none;
+      background-color: rgba(90, 117, 129, 0.5);
+      .icons{
+        color: white;
+        font-size: 18px;
+        > * {
+          margin: 5px 5px;
+        }
+      }
+      h3{
+        color: white;
+        margin: 10px;
+      }
+    }
+
     .photo{
-      height: 80%;
-      width: 100%;
+      width: 280px;
+      height: 280px;
       border-radius: 10px;
       background-position: 10% 10%;
       background-size: cover;
-    }
-    .icons{
-      color: $blue;
-      font-size: 18px;
-      > * {
-        margin: 5px 5px;
-      }
-    }
-    h5{
-      margin-top: 5px;
     }
   }
 }
