@@ -6,7 +6,7 @@ export default function Contact() {
   const colorList = [["#B3B5AA", '90px'], ["#698B98", '130px'], ["#5A7581", '100px'], ["#2B3542", '75px']]
   const blockElements = colorList.map((set, index)=> {
     return(
-      <div className={`block block-${index + 1}`} style={{backgroundColor: `${set[0]}`, height: `${set[1]}`}}></div>
+      <div className={`block block-${index + 1}`} key={index} style={{backgroundColor: `${set[0]}`, height: `${set[1]}`}}></div>
     )
   })
   return(
