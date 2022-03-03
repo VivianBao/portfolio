@@ -13,6 +13,13 @@
       align-items: center;
       > *{
         margin: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 8px;
+      }
+      .project-list-item.active{
+        background-color: $brown;
+        color: white;
       }
     }
 }
