@@ -19,9 +19,9 @@ export default function Contact() {
           </div>
         </div>
         <div className="form">
-          <form>
-            <label htmlFor="email">Name</label>
-            <input type="text" placeholder="Name" name="Name" />
+          <form action="https://getform.io/f/ab39537e-2971-46ed-9ea4-9a3cc8d9f14e" method="POST">
+            <label htmlFor="name">Name</label>
+            <input type="text" placeholder="Name" name="name" />
             <label htmlFor="email">Email</label>
             <input type="text" placeholder="Email" name="email" />
             <label htmlFor="message">Message</label>
