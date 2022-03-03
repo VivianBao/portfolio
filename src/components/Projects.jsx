@@ -8,27 +8,37 @@ import {
 
 export default function Projects() {
   const [selected, setSelected] = useState('featured')
-  const [projectsData, setProjectsData] = useState(settingProjectsData)
+  const [projectsData, setProjectsData] = useState(featuredProjects)
 
-  function settingProjectsData() {
-    switch (selected) {
-      case "featured":{
-        return featuredProjects
-      }
-
-      case "rails":{
-        return railsProjects
-      }
-
-      case "react":{
-        return reactProjects
-      }
-
-      default: {
-        return featuredProjects
-      }
+  useEffect(() => {
+    if(selected === "featured"){
+      setProjectsData(featuredProjects)
+    }else if(selected === "rails"){
+      setProjectsData(railsProjects)
+    }else{
+      setProjectsData(reactProjects)
     }
-  }
+  }, [selected])
+
+  // function settingProjectsData() {
+  //   switch (selected) {
+  //     case "featured":{
+  //       return featuredProjects
+  //     }
+
+  //     case "rails":{
+  //       return railsProjects
+  //     }
+
+  //     case "react":{
+  //       return reactProjects
+  //     }
+
+  //     default: {
+  //       return featuredProjects
+  //     }
+  //   }
+  // }
 
   function handleSelect(id) {
     setSelected(id)
