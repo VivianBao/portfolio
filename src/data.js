@@ -23,7 +23,7 @@ export const featuredProjects = [
   },
   {
     id: 2,
-    title: 'BARTER',
+    title: 'Barter',
     img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
