@@ -14,10 +14,12 @@ export default function Project({projectData, icons}) {
       <div className="photo" style={{
         backgroundImage: projectData.img
       }}></div>
-      <h5>{projectData.title}</h5>
-      {/* <p>A fun quiz app to test your knowledge in various fields</p> */}
-      <div className="icons">
-        {iconElements}
+      <div className="project-card-info">
+        <h3>{projectData.title}</h3>
+        {/* <p>A fun quiz app to test your knowledge in various fields</p> */}
+        <div className="icons">
+          {iconElements}
+        </div>
       </div>
     </div>
   )
