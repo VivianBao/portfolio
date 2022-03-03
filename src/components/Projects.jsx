@@ -3,7 +3,7 @@ import "../styles/Projects.scss";
 import Project from "./Project"
 import ProjectList from "./ProjectList"
 import {
-  featuredProjects, railsProjects, reactProjects
+  icons, featuredProjects, railsProjects, reactProjects
 } from "../data"
 
 export default function Projects() {
@@ -20,33 +20,13 @@ export default function Projects() {
     }
   }, [selected])
 
-  // function settingProjectsData() {
-  //   switch (selected) {
-  //     case "featured":{
-  //       return featuredProjects
-  //     }
-
-  //     case "rails":{
-  //       return railsProjects
-  //     }
-
-  //     case "react":{
-  //       return reactProjects
-  //     }
-
-  //     default: {
-  //       return featuredProjects
-  //     }
-  //   }
-  // }
-
   function handleSelect(id) {
     setSelected(id)
   }
 
   const projectElements = projectsData.map(projectData => {
     return(
-      <Project key={projectData.id} projectData={projectData}/>
+      <Project key={projectData.id} projectData={projectData} icons={icons}/>
     )
   })
 
@@ -54,8 +34,9 @@ export default function Projects() {
     <div className="project-index-container" id="projects">
       <h2>Projects</h2>
       <ProjectList
-      selected={selected}
-      handleSelect={handleSelect} />
+        selected={selected}
+        handleSelect={handleSelect}
+      />
       <div className="project-cards-container">
         {projectElements}
       </div>

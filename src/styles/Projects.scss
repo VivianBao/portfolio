@@ -39,6 +39,25 @@
     height: 280px;
     border-radius: 10px;
     background-color: rgba(249, 249, 242, 0.3);
+    cursor: pointer;
+    color: $blue;
+    &:hover{
+      // opacity: 80%;
+      background-color: $blue;
+      z-index: 3;
+      transform: scale(1.02);
+      transition: all 1s ease;
+      .photo{
+
+      }
+      .icons{
+        color: white;
+      }
+      h5{
+        transition: all 0s ease;
+        color: white;
+      }
+    }
     .photo{
       height: 80%;
       width: 100%;
@@ -52,6 +71,9 @@
       > * {
         margin: 5px 5px;
       }
+    }
+    h5{
+      margin-top: 5px;
     }
   }
 }
