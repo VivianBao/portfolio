@@ -1,0 +1,35 @@
+// default: Extra small devices (Portrait phone 👉 less than 576px)
+// sm: Small devices (Landscape phone 👉 576px and up)
+// md: Medium devices (Tablet 👉 768px and up)
+// lg: Large devices (Desktops 👉 992px and up)
+// xl: Extra large devices (Large desktops 👉 1200px and up)
+// xxl: Extra extra large devices (Extra large desktops 👉 1400px and up)
+
+$lg_width: 992px;
+$md_width: 768px;
+$sm_width: 576px;
+
+@mixin desktop{
+  @media (min-width: $lg_width) {
+    @content
+  }
+};
+
+@mixin tablet{
+  @media (min-width: $md_width){
+    @content
+  }
+};
+
+@mixin sm_device{
+  @media (min-width: $sm_width){
+    @content
+  }
+};
+
+@mixin mobile{
+  @media (max-width: $sm_width){
+    @content
+  }
+
+};

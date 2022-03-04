@@ -13,7 +13,7 @@ export default function Contact() {
     <div className="contact-container" id="contact">
       <div className="form-container">
         <div className="title">
-          <h2>Contact</h2>
+          <div className="title-name"><h2>Contact</h2></div>
           <div className="blocks">
             {blockElements}
           </div>
