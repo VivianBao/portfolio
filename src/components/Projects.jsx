@@ -1,6 +1,5 @@
 import {useState, useEffect} from "react"
 import "../styles/Projects.scss";
-import "../styles/devices.scss";
 import Project from "./Project"
 import ProjectList from "./ProjectList"
 import {
