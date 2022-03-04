@@ -18,52 +18,92 @@ export const featuredProjects = [
   {
     id: 1,
     title: 'Kikoemas+',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/kikoemas-mobile.png'})`,
+        type: "mobile"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
   {
     id: 2,
     title: 'Barter',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/barter-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
   {
     id: 3,
     title: 'Animu',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
   },
-  {
-    id: 4,
-    title: 'Quizzical',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
-  }
+  // {
+  //   id: 4,
+  //   title: 'Quizzical',
+  //   img: [
+  //     {
+  //       url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+  //       type: "desktop"
+  //     }
+  //   ],
+  //   tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
+  // }
 ];
 
 export const railsProjects = [
   {
     id: 1,
     title: 'Kikoemas+',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/kikoemas-mobile.png'})`,
+        type: "mobile"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
   {
     id: 2,
     title: 'BARTER',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/barter-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
   {
     id: 3,
     title: 'Animu',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
   },
   {
     id: 5,
     title: 'Task Manager',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap"],
   }
 ];
@@ -72,13 +112,23 @@ export const reactProjects = [
   {
     id: 4,
     title: 'Quizzical',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
   },
   {
     id: 6,
     title: 'Tenzies',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
+        type: "desktop"
+      }
+    ],
     tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
   },
 ];

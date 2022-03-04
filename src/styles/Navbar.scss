@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 3;
-  color: $blue;
+  color: $gray;
 
   &.active .icons{
     margin-right: 70px;
@@ -29,7 +29,7 @@
     margin: 5px 20px;
     a {
       text-decoration: none;
-      color: $blue;
+      color: $gray;
       font-size: 20px;
       font-weight: 400;
       font-family: 'Noto Serif', serif;
@@ -55,11 +55,11 @@
       width: 28px;
       height: 30px;
       font-size: 25px;
-      color: $blue;
+      color: $gray;
       cursor: pointer;
 
       &:hover{
-          color: $dark-blue;
+          color: $brown;
       }
     }
 
@@ -70,13 +70,13 @@
       > *{
         width: 24px;
         border-radius: 3px;
-        background-color: $blue;
+        background-color: $gray;
         height: 3px;
         margin: 5px;
       }
 
       &:hover .bar{
-        background-color: $dark-blue;
+        background-color: $brown;
       }
     }
   }
