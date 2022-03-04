@@ -12,9 +12,11 @@ export default function Project({projectData, icons}) {
 
   return (
     <div className="project-card">
-      <div className="photo" style={{
-        backgroundImage: projectData.img
-      }}></div>
+      <div className="photo-container">
+        <div className={`${projectData.img[0].type === "desktop" ? "photo-desktop" : "photo-mobile"}`} style={{
+          backgroundImage: projectData.img[0].url
+        }}></div>
+      </div>
       <div className="project-card-info">
         <h3>{projectData.title}</h3>
         <p>Back-end Lead</p>

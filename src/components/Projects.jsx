@@ -44,7 +44,7 @@ export default function Projects() {
       {/* <div className="device-container">
         <div className="device device-macbook-pro">
           <div className="device-frame">
-            <img className="device-content" src={process.env.PUBLIC_URL + '/project_test.png'} />
+            <img className="device-content" src={process.env.PUBLIC_URL + '/kikoemas.png'} />
           </div>
           <div className="device-stripe"></div>
           <div className="device-header"></div>

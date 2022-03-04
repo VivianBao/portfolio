@@ -30,7 +30,7 @@
 
 .project-cards-container{
   overflow: scroll;
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 80px;
@@ -40,19 +40,14 @@
   flex-wrap: wrap;
   gap: 15px 15px;
   .project-card{
-    // width: 280px;
-    // height: 280px;
-    width: 300px;
+    width: 350px;
     height: 280px;
     box-shadow: 0 0 3px $brown;
     border-radius: 10px;
-    background-color: rgba(249, 249, 242, 0.3);
     cursor: pointer;
-    // color: $blue;
     position: relative;
+
     &:hover{
-      // opacity: 70%;
-      // background-color: rgba(105, 139, 152, 0.3);
       z-index: 3;
       transform: scale(1.02);
       transition: all 1s ease;
@@ -67,9 +62,7 @@
 
     .project-card-info{
       position: absolute;
-      // width: 280px;
-      // height: 280px;
-      width: 300px;
+      width: 350px;
       height: 280px;
       box-shadow: 0 0 5px gray;
       border-radius: 10px;
@@ -92,17 +85,26 @@
       }
       h3{
         color: white;
-        // margin: 10px;
       }
     }
 
-    .photo{
-      // width: 280px;
-      // height: 280px;
-      width: 300px;
-      height: 280px;
+    .photo-container{
+      height: 100%;
+      width: 100%;
+    }
+    .photo-desktop{
+      height: 100%;
+      width: 100%;
+      margin: -10% auto;
       border-radius: 10px;
-      background-position: 10% 10%;
+      background-size: cover;
+    }
+
+    .photo-mobile{
+      width: 150px;
+      height: 280px;
+      margin: 0 auto;
+      border-radius: 10px;
       background-size: cover;
     }
   }
