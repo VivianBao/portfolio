@@ -1,4 +1,5 @@
 @import './_colors.scss';
+@import './_media.scss';
 
 .about--brown-block{
   background-color: $brown;
@@ -9,49 +10,46 @@
   position: relative;
   left: 25%;
   top: 0;
-  .transparent-block{
-    background-color: $transparent-white;
-    width: 480px;
-    height: 550px;
-    position: absolute;
-    bottom: -150px;
-    right: -100px;
+  @include mobile{
+    width: 90%;
+    right: 0;
+    left: 10%;
   }
-  .white-block{
-    background-color: $white;
-    width: 480px;
-    height: 550px;
+
+  .blocks-container{
+    width: 450px;
+    // height: 550px;
+    right: -8vw;
+    top: 15vh;
     position: absolute;
-    bottom: -130px;
-    right: -120px;
     z-index: 1;
-    box-shadow: 0 0 1.2px $gray;
-    .triangle{
-      position: absolute;
-      display: inline-block;
-      left: -296px;
-      top: -37px;
+    @include mobile{
+      width: 90vw;
+      left: -10vw;
+      height: 680px;
+      top: 15vh;
+      h2{
+        top: -60px;
+        right: 5vw;
+      }
     }
     h2 {
       position: absolute;
-      left: -155px;
-      // top: -50px;
-      // writing-mode: vertical-rl;
-      // text-orientation: upright;
-      // letter-spacing: -5px;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-underline-position: under;
-      // font-family: 'Noto Serif', serif;
+      left: -150px;
+      // text-decoration: underline;
+      // text-decoration-thickness: 2px;
+      // text-underline-position: under;
       font-weight: 400;
       color: $dark-blue;
       font-size: 42px;
     }
 
-    h5{
+    .white-block{
       font-size: 18px;
       text-align: left;
-      padding: 60px 30px 10px 30px;
+      padding: 60px 30px;
+      background-color: rgba(249, 249, 242, 0.9);
+      box-shadow: 0 0 10px $brown;
     }
   }
 }

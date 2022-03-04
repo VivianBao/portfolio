@@ -10,13 +10,19 @@ $md_width: 768px;
 $sm_width: 576px;
 
 @mixin desktop{
-  @media (max-width: $lg_width) {
+  @media (min-width: $lg_width) {
     @content
   }
 };
 
 @mixin tablet{
-  @media (max-width: $md_width){
+  @media (min-width: $md_width){
+    @content
+  }
+};
+
+@mixin sm_device{
+  @media (min-width: $sm_width){
     @content
   }
 };
