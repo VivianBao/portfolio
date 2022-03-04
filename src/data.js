@@ -20,7 +20,7 @@ export const featuredProjects = [
     title: 'Kikoemas+',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/kikoemas-device.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/kikoemas-mobile.png'})`,
         type: "mobile"
       }
     ],
@@ -31,7 +31,7 @@ export const featuredProjects = [
     title: 'Barter',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/barter-mac.png'})`,
         type: "desktop"
       }
     ],
@@ -42,23 +42,23 @@ export const featuredProjects = [
     title: 'Animu',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
         type: "desktop"
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
   },
-  {
-    id: 4,
-    title: 'Quizzical',
-    img: [
-      {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
-        type: "desktop"
-      }
-    ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
-  }
+  // {
+  //   id: 4,
+  //   title: 'Quizzical',
+  //   img: [
+  //     {
+  //       url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+  //       type: "desktop"
+  //     }
+  //   ],
+  //   tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
+  // }
 ];
 
 export const railsProjects = [
@@ -67,8 +67,8 @@ export const railsProjects = [
     title: 'Kikoemas+',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
-        type: "desktop"
+        url: `url(${process.env.PUBLIC_URL + '/kikoemas-mobile.png'})`,
+        type: "mobile"
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
@@ -78,7 +78,7 @@ export const railsProjects = [
     title: 'BARTER',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/barter-mac.png'})`,
         type: "desktop"
       }
     ],
@@ -89,7 +89,7 @@ export const railsProjects = [
     title: 'Animu',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
         type: "desktop"
       }
     ],
@@ -114,7 +114,7 @@ export const reactProjects = [
     title: 'Quizzical',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
         type: "desktop"
       }
     ],
@@ -125,7 +125,7 @@ export const reactProjects = [
     title: 'Tenzies',
     img: [
       {
-        url: `url(${process.env.PUBLIC_URL + '/Animu-mac.png'})`,
+        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
         type: "desktop"
       }
     ],

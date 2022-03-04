@@ -1,6 +1,5 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import "../styles/devices.css";
 
 export default function Project({projectData, icons}) {
 
