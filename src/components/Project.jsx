@@ -1,5 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import "../styles/devices.css";
 
 export default function Project({projectData, icons}) {
 
@@ -16,7 +17,7 @@ export default function Project({projectData, icons}) {
       }}></div>
       <div className="project-card-info">
         <h3>{projectData.title}</h3>
-        {/* <p>A fun quiz app to test your knowledge in various fields</p> */}
+        <p>Back-end Lead</p>
         <div className="icons">
           {iconElements}
         </div>

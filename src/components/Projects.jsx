@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react"
 import "../styles/Projects.scss";
+import "../styles/devices.scss";
 import Project from "./Project"
 import ProjectList from "./ProjectList"
 import {
@@ -40,6 +41,18 @@ export default function Projects() {
       <div className="project-cards-container">
         {projectElements}
       </div>
+      {/* <div className="device-container">
+        <div className="device device-macbook-pro">
+          <div className="device-frame">
+            <img className="device-content" src={process.env.PUBLIC_URL + '/project_test.png'} />
+          </div>
+          <div className="device-stripe"></div>
+          <div className="device-header"></div>
+          <div className="device-sensors"></div>
+          <div className="device-btns"></div>
+          <div className="device-power"></div>
+        </div>
+      </div> */}
     </div>
   )
 }

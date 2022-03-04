@@ -18,25 +18,25 @@ export const featuredProjects = [
   {
     id: 1,
     title: 'Kikoemas+',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: `url(${process.env.PUBLIC_URL + '/project_transparent.png'})`,
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
   {
     id: 2,
     title: 'Barter',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: `url(${process.env.PUBLIC_URL + '/project_img_test.png'})`,
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
   },
   {
     id: 3,
     title: 'Animu',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: `url(${process.env.PUBLIC_URL + '/project_img_test_white.png'})`,
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
   },
   {
     id: 4,
     title: 'Quizzical',
-    img: `url(${process.env.PUBLIC_URL + '/project_test.png'})`,
+    img: `url(${process.env.PUBLIC_URL + '/project_transparent.png'})`,
     tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
   }
 ];
