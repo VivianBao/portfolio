@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative; // for footer
 }
 
 .form-container{
@@ -92,6 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
     svg{
       width: 28px;
       font-size: 30px;

@@ -3,12 +3,13 @@
 .side-bar{
   height: 100vh;
   width: 300px;
-  background-color: $sidebar-white;
+  background-color: $white;
   position: fixed;
   top: 0;
   right: -300px;
   z-index: 2;
   transition: all 1.5s ease;
+  box-shadow: 0 0 2px $brown;
   &.active {
     right: 0;
   }
@@ -22,8 +23,11 @@
         text-decoration: none;
         color: $blue;
         font-size: 20px;
+        transition: all 0.5s ease;
         &:hover{
           color: $dark-blue;
+          transition: all 0.5s ease;
+          font-size: 25px;
         }
       }
     }
