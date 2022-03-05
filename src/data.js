@@ -78,7 +78,7 @@ export const railsProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
-    description: "  ",
+    description: "A web app that helps Japanese high schoolers improve their mental health",
     roles: "Back-end Lead | UX Designer"
   },
   {
@@ -91,7 +91,7 @@ export const railsProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
-    description: "   ",
+    description: "A platform for people to exchange goods without money",
     roles: "Back-end Lead | UX Designer"
   },
   {
@@ -104,7 +104,7 @@ export const railsProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
-    description: "  ",
+    description: "Find your next anime series to binge and create your own watch lists",
     roles: "Full Stack Developer"
   },
   {
@@ -117,7 +117,7 @@ export const railsProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap"],
-    description: "  ",
+    description: "A web app that helps you keep track of your daily tasks",
     roles: "Full Stack Developer"
   }
 ];
@@ -133,7 +133,7 @@ export const reactProjects = [
       }
     ],
     tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
-    description: "  ",
+    description: "Test your knowledge on a variety of fields!",
     roles: "Full Stack Developer"
   },
   {
@@ -146,7 +146,7 @@ export const reactProjects = [
       }
     ],
     tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
-    description: "  ",
+    description: "Come play tenzies and see your best record!",
     roles: "Full Stack Developer"
   },
 ];
