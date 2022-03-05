@@ -17,7 +17,7 @@ export default function Project({projectData, icons}) {
       </div>
       <div className="description">
         <h3>{projectData.title}</h3>
-        <p className="content">A web app that helps improve Japanese high schoolers' mental health</p>
+        <p className="content">{projectData.description}</p>
         <h5 className="roles">Back-end Lead</h5>
         <div className="icons">
           {iconElements}

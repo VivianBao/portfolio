@@ -24,7 +24,9 @@ export const featuredProjects = [
         type: "mobile"
       }
     ],
-    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
+    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+    description: "A web app that helps Japanese high schoolers improve their mental health",
+    roles: "Back-end Dev | UX Designer"
   },
   {
     id: 2,
@@ -35,7 +37,9 @@ export const featuredProjects = [
         type: "desktop"
       }
     ],
-    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
+    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+    description: "A platform for people to exchange goods without money",
+    roles: "Back-end Dev | UX Designer"
   },
   {
     id: 3,
@@ -47,6 +51,8 @@ export const featuredProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+    description: "Find your next anime series to binge and create your own watch lists",
+    roles: "Full Stack Developer"
   },
   // {
   //   id: 4,
@@ -57,7 +63,7 @@ export const featuredProjects = [
   //       type: "desktop"
   //     }
   //   ],
-  //   tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
+  //   tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
   // }
 ];
 
@@ -71,7 +77,9 @@ export const railsProjects = [
         type: "mobile"
       }
     ],
-    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
+    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+    description: "  ",
+    roles: "Back-end Dev | UX Designer"
   },
   {
     id: 2,
@@ -82,7 +90,9 @@ export const railsProjects = [
         type: "desktop"
       }
     ],
-    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"]
+    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+    description: "   ",
+    roles: "Back-end Dev | UX Designer"
   },
   {
     id: 3,
@@ -94,6 +104,8 @@ export const railsProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+    description: "  ",
+    roles: "Full Stack Developer"
   },
   {
     id: 5,
@@ -105,6 +117,8 @@ export const railsProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap"],
+    description: "  ",
+    roles: "Full Stack Developer"
   }
 ];
 
@@ -118,7 +132,9 @@ export const reactProjects = [
         type: "desktop"
       }
     ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
+    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    description: "  ",
+    roles: "Full Stack Developer"
   },
   {
     id: 6,
@@ -129,6 +145,8 @@ export const reactProjects = [
         type: "desktop"
       }
     ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"]
+    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    description: "  ",
+    roles: "Full Stack Developer"
   },
 ];
