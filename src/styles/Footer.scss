@@ -1,0 +1,12 @@
+@import './_colors.scss';
+
+footer{
+  text-align: center;
+  height: 50px;
+  color: $blue;
+  // text-shadow: 0 0 2px rgb(179, 181, 170);
+  background-color: rgba(179, 181, 170, 0.4);
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/Contact.scss"
+import Footer from "./Footer"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Contact() {
@@ -34,6 +35,7 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/wei-an-bow-0610b1217/" target='_blank'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
         <a href="https://github.com/VivianBao" target='_blank'><FontAwesomeIcon icon="fa-brands fa-github" /></a>
       </div>
+      <Footer />
     </div>
   )
 }
