@@ -15,6 +15,18 @@ export default function Project({projectData, icons}) {
           backgroundImage: projectData.img[0].url
         }}></div>
       </div>
+      <div className="description">
+        <h3>{projectData.title}</h3>
+        <p className="content">{projectData.description}</p>
+        <h5 className="roles">{projectData.roles}</h5>
+        <div className="icons">
+          {iconElements}
+        </div>
+        <div className="links">
+          <a href="#" alt="code" target="_blank">View Site</a>
+          <a href="#" alt="code" target="_blank">View Code</a>
+        </div>
+      </div>
       <div className="project-card-info">
         <h3>{projectData.title}</h3>
         <p>Back-end Lead</p>
