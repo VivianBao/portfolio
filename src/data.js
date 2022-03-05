@@ -26,7 +26,7 @@ export const featuredProjects = [
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
     description: "A web app that helps Japanese high schoolers improve their mental health",
-    roles: "Back-end Dev | UX Designer"
+    roles: "Back-end Lead | UX Designer"
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const featuredProjects = [
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
     description: "A platform for people to exchange goods without money",
-    roles: "Back-end Dev | UX Designer"
+    roles: "Back-end Lead | UX Designer"
   },
   {
     id: 3,
@@ -79,7 +79,7 @@ export const railsProjects = [
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
     description: "  ",
-    roles: "Back-end Dev | UX Designer"
+    roles: "Back-end Lead | UX Designer"
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ export const railsProjects = [
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
     description: "   ",
-    roles: "Back-end Dev | UX Designer"
+    roles: "Back-end Lead | UX Designer"
   },
   {
     id: 3,
