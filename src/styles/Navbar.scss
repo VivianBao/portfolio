@@ -33,6 +33,9 @@
       font-size: 20px;
       font-weight: 400;
       font-family: 'Noto Serif', serif;
+      &:hover{
+        color: $blue;
+      }
     }
   }
 
@@ -59,7 +62,7 @@
       cursor: pointer;
 
       &:hover{
-          color: $brown;
+        color: $blue;
       }
     }
 
@@ -76,7 +79,7 @@
       }
 
       &:hover .bar{
-        background-color: $brown;
+        background-color: $blue;
       }
     }
   }
