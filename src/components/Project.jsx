@@ -23,8 +23,8 @@ export default function Project({projectData, icons}) {
           {iconElements}
         </div>
         <div className="links">
-          <a href="#" alt="code" target="_blank">View Site</a>
-          <a href="#" alt="code" target="_blank">View Code</a>
+          { projectData.site && <a href={projectData.site} alt="site" target="_blank">View Site</a> }
+          <a href={projectData.code} alt="code" target="_blank">View Code</a>
         </div>
       </div>
       <div className="project-card-info">
