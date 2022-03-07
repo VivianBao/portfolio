@@ -80,7 +80,7 @@ export const railsProjects = [
   },
   {
     id: 2,
-    title: 'BARTER',
+    title: 'Barter',
     img: [
       {
         url: `url(${process.env.PUBLIC_URL + '/barter-mac.png'})`,
