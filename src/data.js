@@ -139,7 +139,7 @@ export const reactProjects = [
     description: "Test your knowledge on a variety of fields!",
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/react-quizzical",
-    site: ""
+    site: "https://quizzical-anime.herokuapp.com/"
   },
   {
     id: 6,
