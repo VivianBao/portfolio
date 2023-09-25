@@ -8,7 +8,6 @@ import SideBar from "./components/SideBar"
 import {useState} from "react"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faGithub, fab } from '@fortawesome/free-brands-svg-icons'
 
