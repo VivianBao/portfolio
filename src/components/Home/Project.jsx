@@ -1,4 +1,6 @@
 import React from "react"
+import {Link} from "react-router-dom"
+import ProjectPage from "../Project/ProjectPage"
 
 export default function Project({projectData, icons}) {
 
@@ -25,6 +27,7 @@ export default function Project({projectData, icons}) {
         <div className="links">
           {/* { projectData.site && <a href={projectData.site} alt="site" target="_blank">View Site</a> } */}
           <a href={projectData.code} alt="code" target="_blank">View Code</a>
+          <Link to={`/project`}>To project page</Link>
         </div>
       </div>
       <div className="project-card-info">

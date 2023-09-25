@@ -1,11 +1,11 @@
 import React from "react"
 // import Intro from "./Intro"
-import '../styles/Home.scss';
+import '../../styles/Home.scss';
 
-export default function Home() {
+export default function Landing() {
   return (
     <>
-      <div className="landing-container" id="home">
+      <div className="landing-container" id="landing">
         <div className="landing--brown-block">
           <div className="text">
             <div className="name">

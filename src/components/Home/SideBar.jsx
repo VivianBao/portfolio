@@ -1,11 +1,11 @@
-import "../styles/SideBar.scss"
+import "../../styles/SideBar.scss"
 
 export default function SideBar(props) {
   return (
     <div className={"side-bar " + (props.openMenu && "active")}>
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <a href="#landing">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
