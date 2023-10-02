@@ -1,4 +1,4 @@
-import React from "react"
+import { React, useLayoutEffect } from "react"
 import { useLocation } from 'react-router-dom'
 import '../../styles/ProjectPage.scss'
 import { icons } from "../../data"
@@ -19,6 +19,11 @@ export default function ProjectPage() {
       </div>
     )
   })
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+});
+
   return(
     <>
     <div className="project-landing-container">
