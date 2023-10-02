@@ -33,12 +33,14 @@
 // }
 
 .left-landing-container{
-  height: 100vh;
+  height: 90vh;
 }
 .right-container{
-  // margin-top: 100px;
+  height: auto;
 }
-
+.left-container{
+  height: auto;
+}
 .title-container{
   display: flex;
   flex-direction: column;
@@ -71,6 +73,9 @@
   h2{
     font-size: 46px;
   }
+  h5 {
+    line-height: 1.4;
+  }
 }
 
 .introduction-container{
@@ -81,20 +86,23 @@
   justify-content: center;
   align-items: left;
   margin-bottom: 20px;
-  h5{
-    line-height: 1.4;
-  }
 }
 
 .features-container{
   width: 90%;
   margin: 0 auto;
-  height: 100vh;
+  // height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
+.video-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh
+}
 .left-container .icons {
   display: flex;
   justify-content: center;

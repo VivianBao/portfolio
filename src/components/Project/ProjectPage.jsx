@@ -54,10 +54,14 @@ export default function ProjectPage() {
             <h5>{projectData.story}</h5>
           </div>
         </div>
-        {/* <div className="features-container">
-          <h2>Features</h2>
-          {projectContent}
-        </div> */}
+      {projectData.title === "Kikoemas+" ? (
+        <div className="video-container" >
+          <h3>Product Pitch</h3>
+          <iframe width="672" height="378" src="https://www.youtube.com/embed/OP88DtltO2Y?si=bBWxfzcUB036Vke1&amp;start=953&end=1392" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      ):(
+        <></>
+      )}
       </div>
     </div>
     </>
