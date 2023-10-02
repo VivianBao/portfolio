@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   position: relative; // for footer
+  // min-height: 100vh;
 }
 
 .form-container{
@@ -94,6 +95,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    p{
+      color: $blue;
+      font-weight: 300;
+      font-size: 20px;
+    }
     svg{
       width: 28px;
       font-size: 30px;
