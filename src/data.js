@@ -10,7 +10,8 @@ export const icons = [{
   'Git': 'git-plain',
   'Bootstrap': 'bootstrap-plain-wordmark',
   'Figma': 'figma-plain',
-  'React':'react-original'
+  'React':'react-original',
+  'Express': 'express-original'
 }];
 
 
@@ -31,6 +32,7 @@ export const featuredProjects = [
     site: "https://www.kikoemas.com",
     sub_title: "Access to the help you need by a click",
     story: "As the final team project of Le Wagon Full-stack developer course, we decided to dedicate our web app to the improvement of mental health among Japanese high schoolers. With the pressure of furthering education, the signs of depression is particularly conspicuous in high schoolers among all students. And as Covid struck and caused further mental impact, the mental health of high schoolers was only worsening. To help students access the help they need, we created a platform for both students and counselors to help simplified the process and turn counseling assistance more accessible.",
+    team: ["Vivian Bow", "Caio Santos", "Ryota Enoki", "Karen Joy Fujibayashi", "Renato Delboni"],
     features: [
       {
         sub_title: "1. Direct Chats with Counselors",
@@ -56,12 +58,13 @@ export const featuredProjects = [
       }
     ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
-    description: "A platform for people to exchange goods without money",
+    description: "Find what you need, offer what you can",
     roles: "Back-end Lead | UX Designer",
     code: "https://github.com/VivianBao/BARTER",
     site: "https://barter-exchange.herokuapp.com",
     sub_title: "Find what you need, offer what you can",
     story: "This is not only the first team project of Le Wagon Full-stack developer course, but also the first team project on the personal level. The origin of “Barter” starts with the fact that in some areas during Covid, people would barter essential goods when shortage struck, but the lack of efficient communication means made an insufficient flow of information. To solve this problem, we came up with the idea to offer a platform for easy access to exchange information and management of exchange schedule.",
+    team: ["Vivian Bow", "Caio Santos", "Ryota Enoki", "Karen Joy Fujibayashi"],
     features: [
       {
         sub_title:"1. Find What You Need",
@@ -79,6 +82,49 @@ export const featuredProjects = [
         sub_title:"4. Exchange History",
         description: "You can view the upcoming exchange and your exchange history."
       },
+    ],
+  },
+  {
+    id: 7,
+    title: 'Quote API',
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/quote_api.png'})`,
+        type: "desktop"
+      }
+    ],
+    tags: ["Express", "Javascript","HTML5", "CSS3", "Sass", "Figma"],
+    description: "Your Personal Quote Library",
+    roles: "Full Stack Developer",
+    code: "https://github.com/VivianBao/quote-api",
+    site: "",
+    sub_title: "Store Your Inspiration",
+    story: "This project expanded one of the exercises from codecady Full-stack Engineer course. “Quote API” project utilized routing in Express.js to create CRUD endpoints and realize the concept of a quote library.",
+    features: [
+      {
+        sub_title:"1.  Browse All the Quotes",
+        description: "You can browse all the quotes in the collection."
+      },
+      {
+        sub_title:"2. Get a Random Quote",
+        description: "If you’re looking for inspiration, you can get a quote randomly recommended by the system."
+      },
+      {
+        sub_title:"3. Find Quotes by Author",
+        description: "If you want to browse quotes by a particular person, you can find quotes by the author."
+      },
+      {
+        sub_title:"4. Add a Quote",
+        description: "If you encounter a quote that is inspirational to you, you can add a quote to the collection."
+      },
+      {
+        sub_title:"5. Edit a Quote",
+        description: "Dread not if you have a typo in the quote you just add, you can edit a quote in the collection."
+      },
+      {
+        sub_title:"6. Delete A Quote",
+        description: "You can also delete a quote if you find you no longer need it."
+      }
     ],
   },
   {
@@ -111,7 +157,100 @@ export const featuredProjects = [
         description: ""
       },
     ],
-  }
+  },
+  {
+    id: 5,
+    title: 'Task Manager',
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/task-manager-mac.png'})`,
+        type: "desktop"
+      }
+    ],
+    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap"],
+    description: "Organize your daily tasks with Task Manager!",
+    roles: "Full Stack Developer",
+    code: "https://github.com/VivianBao/rails-task-manager",
+    site: "https://task-manager-vb.herokuapp.com/",
+    sub_title: "",
+    story: "",
+    features: [
+      {
+        sub_title:"",
+        description: ""
+      },
+      {
+        sub_title:"",
+        description: ""
+      },
+      {
+        sub_title:"",
+        description: ""
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Quizzical',
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/quizzical-mobile.png'})`,
+        type: "mobile"
+      }
+    ],
+    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    description: "Test your knowledge on a variety of fields!",
+    roles: "Full Stack Developer",
+    code: "https://github.com/VivianBao/react-quizzical",
+    site: "https://quizzical-anime.herokuapp.com/",
+    sub_title: "Test Your Knowledge in Anime",
+    story: "This project is originated from the exercises from Learn React tutorial from scrimba. A simple but fun quiz generator with a collection of questions about anime.",
+    features: [
+      {
+        sub_title:"1. Start Quiz",
+        description: ""
+      },
+      {
+        sub_title:"2. Select Answer",
+        description: ""
+      },
+      {
+        sub_title:"3. Check Answer",
+        description: ""
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: 'Tenzies',
+    img: [
+      {
+        url: `url(${process.env.PUBLIC_URL + '/tenzies-mac.png'})`,
+        type: "desktop"
+      }
+    ],
+    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    description: "Come play tenzies and see your best record!",
+    roles: "Full Stack Developer",
+    code: "https://github.com/VivianBao/react-tenzies-game",
+    site: "https://fun-tenzies.herokuapp.com",
+    sub_title: "Can You Be Faster?",
+    story: "This project is originated from the exercises from Learn React tutorial from scrimba. Tenzies is a game that tests your reflex. To win this game, you need to roll the dices until they are of the same number, and the less time you take the better!",
+    features: [
+      {
+        sub_title:"1. Click and freeze dices to lock the number",
+        description: ""
+      },
+      {
+        sub_title:"2. Click the roll button to roll the dices that aren’t locked",
+        description: ""
+      },
+      {
+        sub_title:"3. Try to break your personal record!",
+        description: ""
+      },
+    ],
+  },
 ];
 
 export const railsProjects = [
@@ -131,6 +270,7 @@ export const railsProjects = [
     site: "https://www.kikoemas.com",
     sub_title: "Access to the help you need by a click",
     story: "As the final team project of Le Wagon Full-stack developer course, we decided to dedicate our web app to the improvement of mental health among Japanese high schoolers. With the pressure of furthering education, the signs of depression is particularly conspicuous in high schoolers among all students. And as Covid struck and caused further mental impact, the mental health of high schoolers was only worsening. To help students access the help they need, we created a platform for both students and counselors to help simplified the process and turn counseling assistance more accessible.",
+    team: ["Vivian Bow", "Caio Santos", "Ryota Enoki", "Karen Joy Fujibayashi", "Renato Delboni"],
     features: [
       {
         sub_title: "1. Direct Chats with Counselors",
@@ -162,6 +302,7 @@ export const railsProjects = [
     site: "https://barter-exchange.herokuapp.com",
     sub_title: "Find what you need, offer what you can",
     story: "This is not only the first team project of Le Wagon Full-stack developer course, but also the first team project on the personal level. The origin of “Barter” starts with the fact that in some areas during Covid, people would barter essential goods when shortage struck, but the lack of efficient communication means made an insufficient flow of information. To solve this problem, we came up with the idea to offer a platform for easy access to exchange information and management of exchange schedule.",
+    team: ["Vivian Bow", "Caio Santos", "Ryota Enoki", "Karen Joy Fujibayashi"],
     features: [
       {
         sub_title:"1. Find What You Need",

@@ -49,10 +49,28 @@ export default function ProjectPage() {
       </div>
       <div className="right-container">
         <div className="introduction-container">
-          <h2>Introduction</h2>
+          <div className="introduction-title">
+            <h2>Introduction</h2>
+            <a href={projectData.code} alt="code" target="_blank">View Code</a>
+          </div>
           <div className="content-container">
             <h5>{projectData.story}</h5>
           </div>
+          {projectData.team ? (
+            <>
+              <h3>Team Members</h3>
+              <div className="team-container">
+                {projectData.team.map(member => {
+                  return(
+                    <div>
+                      <h5>{member}</h5>
+                    </div>
+                  )
+                  })}
+              </div>
+            </>
+
+          ):(<></>)}
         </div>
       {projectData.title === "Kikoemas+" ? (
         <div className="video-container" >

@@ -17,10 +17,13 @@
   }
 
   .blocks-container{
-    width: 450px;
+    width: 120%;
+    height: 100%;
+    // width: 450px;
     // height: 550px;
-    right: -8vw;
-    top: 15vh;
+    // right: -8vw;
+    top: 10vh;
+    // left: -8vw;
     position: absolute;
     z-index: 1;
     @include mobile{
@@ -47,8 +50,11 @@
     .white-block{
       font-size: 18px;
       text-align: left;
-      padding: 60px 30px;
-      background-color: rgba(249, 249, 242, 0.9);
+      padding: 80px 30px;
+      width: 100%;
+      // height: auto;
+      // background-color: rgba(249, 249, 242, 0.9);
+      background-color: rgba(249, 249, 242, 1);
       box-shadow: 0 0 10px $brown;
     }
   }

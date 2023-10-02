@@ -9,13 +9,14 @@ export default function Landing() {
         <div className="landing--brown-block">
           <div className="text">
             <div className="name">
-              <h1>Wei An</h1>
-              <h1>Bow</h1>
+              <h2>包維安</h2>
+              <h3>Bow Wei An</h3>
+              <h4>Vivian Bow</h4>
             </div>
-            <h4>Vivian -She/Her-</h4>
-            <h3>Software Engineer</h3>
-            <h3>Full Stack Web Developer</h3>
-            <h5>Ruby on Rails | HTML | CSS | Javascript | React</h5>
+            <div>
+              <h3>Full Stack Web Developer</h3>
+              <h5>Ruby on Rails | HTML | CSS | Javascript | React</h5>
+            </div>
           </div>
           <div className="blue-block"></div>
           <div className="dark-blue-block"></div>
