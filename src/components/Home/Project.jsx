@@ -18,8 +18,10 @@ export default function Project({projectData, icons}) {
         }}></div>
       </div>
       <div className="description">
-        <h3>{projectData.title}</h3>
-        <p className="content">{projectData.description}</p>
+        <div className="title">
+          <h3>{projectData.title}</h3>
+          <p className="content">{projectData.description}</p>
+        </div>
         <h5 className="roles">{projectData.roles}</h5>
         <div className="icons">
           {iconElements}

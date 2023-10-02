@@ -33,7 +33,6 @@ export default function Contact() {
       </div>
       <div className="icons">
         <a href="https://www.linkedin.com/in/wei-an-bow-0610b1217/" target='_blank'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
-        <p>vivianbao.1009@gmail.com</p>
         <a href="https://github.com/VivianBao" target='_blank'><FontAwesomeIcon icon="fa-brands fa-github" /></a>
       </div>
       <Footer />
