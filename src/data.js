@@ -2,16 +2,16 @@ export const icons = [{
   'Ruby': 'ruby-plain',
   'Rails': 'rails-plain-wordmark',
   'PostgreSQL': 'postgresql-plain-wordmark',
+  'Javascript': 'javascript-plain',
+  'React.js':'react-original',
+  'Express.js': 'express-original',
+  'Git': 'git-plain',
+  'Github':'github-original',
   'HTML5': 'html5-plain-wordmark',
   'CSS3': 'css3-plain-wordmark',
-  'Javascript': 'javascript-plain',
   'Sass': 'sass-original',
-  'Github':'github-original',
-  'Git': 'git-plain',
   'Bootstrap': 'bootstrap-plain-wordmark',
   'Figma': 'figma-plain',
-  'React':'react-original',
-  'Express': 'express-original'
 }];
 
 
@@ -93,7 +93,7 @@ export const featuredProjects = [
         type: "desktop"
       }
     ],
-    tags: ["Express", "Javascript","HTML5", "CSS3", "Sass", "Figma"],
+    tags: ["Express.js", "Javascript","HTML5", "CSS3", "Sass", "Figma"],
     description: "Your Personal Quote Library",
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/quote-api",
@@ -198,7 +198,7 @@ export const featuredProjects = [
         type: "mobile"
       }
     ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    tags: ["React.js", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
     description: "Test your knowledge on a variety of fields!",
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/react-quizzical",
@@ -229,7 +229,7 @@ export const featuredProjects = [
         type: "desktop"
       }
     ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    tags: ["React.js", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
     description: "Come play tenzies and see your best record!",
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/react-tenzies-game",
@@ -396,7 +396,7 @@ export const reactProjects = [
         type: "mobile"
       }
     ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    tags: ["React.js", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
     description: "Test your knowledge on a variety of fields!",
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/react-quizzical",
@@ -427,7 +427,7 @@ export const reactProjects = [
         type: "desktop"
       }
     ],
-    tags: ["React", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
+    tags: ["React.js", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
     description: "Come play tenzies and see your best record!",
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/react-tenzies-game",
