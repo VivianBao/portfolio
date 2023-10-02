@@ -30,11 +30,11 @@ export const featuredProjects = [
     code: "https://github.com/VivianBao/kikoemas",
     site: "https://www.kikoemas.com",
     sub_title: "Access to the help you need by a click",
-    story: "As the final team project of Le Wagon Full-stack developer course, we decided to dedicate our web app to the improvement of mental health among Japanese high schoolers. With the pressure of furthering education, the signs of depression is particularly conspicuous in high schoolers among all students. And as Covid struck and caused further mental impact, the mental health of high schoolers was only worsening.<br/>To help students access the help they need, we created a platform for both students and counselors to help simplified the process and turn counseling assistance more accessible.",
+    story: "As the final team project of Le Wagon Full-stack developer course, we decided to dedicate our web app to the improvement of mental health among Japanese high schoolers. With the pressure of furthering education, the signs of depression is particularly conspicuous in high schoolers among all students. And as Covid struck and caused further mental impact, the mental health of high schoolers was only worsening. To help students access the help they need, we created a platform for both students and counselors to help simplified the process and turn counseling assistance more accessible.",
     features: [
       {
         sub_title: "1. Direct Chats with Counselors",
-        description: "For students who might need immediate attention, the direct chat option would help connect to an available counselor. Counselors would receive an alert and invite to the chatroom.<br/>To ease the anxiety of face-to-face interaction and thus provide a space where conversations are exchanged through text.<br/>After the chat, students are also given the option to book a session with the counselor if they would like to talk again."
+        description: "For students who might need immediate attention, the direct chat option would help connect to an available counselor. Counselors would receive an alert and invite to the chatroom. To ease the anxiety of face-to-face interaction and thus provide a space where conversations are exchanged through text. After the chat, students are also given the option to book a session with the counselor if they would like to talk again."
       },
       {
         sub_title: "2. Counseling Sessions Booking",
@@ -61,7 +61,7 @@ export const featuredProjects = [
     code: "https://github.com/VivianBao/BARTER",
     site: "https://barter-exchange.herokuapp.com",
     sub_title: "Find what you need, offer what you can",
-    story: "This is not only the first team project of Le Wagon Full-stack developer course, but also the first team project on the personal level. The origin of “Barter” starts with the fact that in some areas during Covid, people would barter essential goods when shortage struck, but the lack of efficient communication means made an insufficient flow of information.<br/>To solve this problem, we came up with the idea to offer a platform for easy access to exchange information and management of exchange schedule.",
+    story: "This is not only the first team project of Le Wagon Full-stack developer course, but also the first team project on the personal level. The origin of “Barter” starts with the fact that in some areas during Covid, people would barter essential goods when shortage struck, but the lack of efficient communication means made an insufficient flow of information. To solve this problem, we came up with the idea to offer a platform for easy access to exchange information and management of exchange schedule.",
     features: [
       {
         sub_title:"1. Find What You Need",
@@ -99,15 +99,15 @@ export const featuredProjects = [
     story: "",
     features: [
       {
-        sub_title:"",
+        sub_title:"1. Create a Anime List",
         description: ""
       },
       {
-        sub_title:"",
+        sub_title:"2. Add Anime to List",
         description: ""
       },
       {
-        sub_title:"",
+        sub_title:"3. Browse the Recommended Anime",
         description: ""
       },
     ],
@@ -130,11 +130,11 @@ export const railsProjects = [
     code: "https://github.com/VivianBao/kikoemas",
     site: "https://www.kikoemas.com",
     sub_title: "Access to the help you need by a click",
-    story: "As the final team project of Le Wagon Full-stack developer course, we decided to dedicate our web app to the improvement of mental health among Japanese high schoolers. With the pressure of furthering education, the signs of depression is particularly conspicuous in high schoolers among all students. And as Covid struck and caused further mental impact, the mental health of high schoolers was only worsening.<br/>To help students access the help they need, we created a platform for both students and counselors to help simplified the process and turn counseling assistance more accessible.",
+    story: "As the final team project of Le Wagon Full-stack developer course, we decided to dedicate our web app to the improvement of mental health among Japanese high schoolers. With the pressure of furthering education, the signs of depression is particularly conspicuous in high schoolers among all students. And as Covid struck and caused further mental impact, the mental health of high schoolers was only worsening. To help students access the help they need, we created a platform for both students and counselors to help simplified the process and turn counseling assistance more accessible.",
     features: [
       {
         sub_title: "1. Direct Chats with Counselors",
-        description: "For students who might need immediate attention, the direct chat option would help connect to an available counselor. Counselors would receive an alert and invite to the chatroom.<br/>To ease the anxiety of face-to-face interaction and thus provide a space where conversations are exchanged through text.<br/>After the chat, students are also given the option to book a session with the counselor if they would like to talk again."
+        description: "For students who might need immediate attention, the direct chat option would help connect to an available counselor. Counselors would receive an alert and invite to the chatroom. To ease the anxiety of face-to-face interaction and thus provide a space where conversations are exchanged through text. After the chat, students are also given the option to book a session with the counselor if they would like to talk again."
       },
       {
         sub_title: "2. Counseling Sessions Booking",
@@ -161,7 +161,7 @@ export const railsProjects = [
     code: "https://github.com/VivianBao/BARTER",
     site: "https://barter-exchange.herokuapp.com",
     sub_title: "Find what you need, offer what you can",
-    story: "This is not only the first team project of Le Wagon Full-stack developer course, but also the first team project on the personal level. The origin of “Barter” starts with the fact that in some areas during Covid, people would barter essential goods when shortage struck, but the lack of efficient communication means made an insufficient flow of information.<br/>To solve this problem, we came up with the idea to offer a platform for easy access to exchange information and management of exchange schedule.",
+    story: "This is not only the first team project of Le Wagon Full-stack developer course, but also the first team project on the personal level. The origin of “Barter” starts with the fact that in some areas during Covid, people would barter essential goods when shortage struck, but the lack of efficient communication means made an insufficient flow of information. To solve this problem, we came up with the idea to offer a platform for easy access to exchange information and management of exchange schedule.",
     features: [
       {
         sub_title:"1. Find What You Need",
