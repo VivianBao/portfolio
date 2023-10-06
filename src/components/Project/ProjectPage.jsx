@@ -100,7 +100,9 @@ export default function ProjectPage() {
       </div>
     </div> */}
     <div className="project-landing-container">
-      <div className="top-container">
+      <div className={`${projectData.img[0].type === "desktop" ?
+                      "photo-desktop-top-container top-container"
+                      : "photo-mobile-top-container top-container"}`}>
         <div className="left-landing-container">
           <div className="preview-container">
             <div className={`${projectData.img[0].type === "desktop" ? "photo-desktop" : "photo-mobile"}`} style={{
