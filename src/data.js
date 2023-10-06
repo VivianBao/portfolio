@@ -150,29 +150,21 @@ export const featuredProjects = [
     story: "This project expanded one of the exercises from codecady Full-stack Engineer course. “Quote API” project utilized routing in Express.js to create CRUD endpoints and realize the concept of a quote library.",
     features: [
       {
-        sub_title:"1.  Browse All the Quotes",
-        description: "You can browse all the quotes in the collection."
+        sub_title:"1. Browse Quotes",
+        description: "You can browse all the quotes in the collection. And if you’re looking for inspiration, you can get a quote randomly recommended by the system. You can also browse quotes by a particular person, you can find quotes by the author."
       },
       {
-        sub_title:"2. Get a Random Quote",
-        description: "If you’re looking for inspiration, you can get a quote randomly recommended by the system."
+        sub_title:"2. Add a Quote",
+        description: "If you encounter a quote that is inspirational to you, you can add a quote to the collection. "
       },
       {
-        sub_title:"3. Find Quotes by Author",
-        description: "If you want to browse quotes by a particular person, you can find quotes by the author."
-      },
-      {
-        sub_title:"4. Add a Quote",
-        description: "If you encounter a quote that is inspirational to you, you can add a quote to the collection."
-      },
-      {
-        sub_title:"5. Edit a Quote",
+        sub_title:"3. Edit a Quote",
         description: "Dread not if you have a typo in the quote you just add, you can edit a quote in the collection."
       },
       {
-        sub_title:"6. Delete A Quote",
+        sub_title:"4. Delete A Quote",
         description: "You can also delete a quote if you find you no longer need it."
-      }
+      },
     ],
   },
   // {
@@ -238,21 +230,25 @@ export const featuredProjects = [
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/rails-task-manager",
     site: "https://task-manager-vb.herokuapp.com/",
-    sub_title: "",
-    story: "",
+    sub_title: "Your personal daily task manager",
+    story: "A task list that helps you keep track of all your tasks of the day with a simple and elegant layout. All features are instinctive that help you add, edit, or remove a task. ",
     features: [
       {
-        sub_title:"",
-        description: ""
+        sub_title:"1. View Your Task List",
+        description: "First thing you see on the homepage is a list of all your tasks. "
       },
       {
-        sub_title:"",
-        description: ""
+        sub_title:"2. Add or Edit a Task",
+        description: "If you have a new task, click on the ‘Add New Task’ button to create one. You can click on the task on the list to see notes. And if you would like to edit the content of the task, click the ‘edit’ button."
       },
       {
-        sub_title:"",
-        description: ""
+        sub_title:"3. Check out a Task",
+        description: "If you have completed a task, simply check the box and it will be marked as completed."
       },
+      {
+        sub_title:"4. Remove Completed Task",
+        description: "At the end of the day, you can remove all the completed tasks from your list."
+      }
     ],
   },
   {
@@ -287,17 +283,13 @@ export const featuredProjects = [
     story: "This project is originated from the exercises from Learn React tutorial from scrimba. A simple but fun quiz generator with a collection of questions about anime.",
     features: [
       {
-        sub_title:"1. Start Quiz",
-        description: ""
+        sub_title:"1. Select Answer",
+        description: "Each quiz will have randomly generated questions about anime. Select the answer by clicking on the choice you decide to go with."
       },
       {
-        sub_title:"2. Select Answer",
-        description: ""
-      },
-      {
-        sub_title:"3. Check Answer",
-        description: ""
-      },
+        sub_title:"2. Check Answer",
+        description: "After you’re confident to submit your answers, click on the button and see how many points you score! You can always start a new quiz if you would like to challenge again."
+      }
     ],
   },
   {
@@ -336,17 +328,21 @@ export const featuredProjects = [
     story: "This project is originated from the exercises from Learn React tutorial from scrimba. Tenzies is a game that tests your reflex. To win this game, you need to roll the dices until they are of the same number, and the less time you take the better!",
     features: [
       {
-        sub_title:"1. Click and freeze dices to lock the number",
-        description: ""
+        sub_title:"1. How it works",
+        description: "To win this game, you need to roll the dices until they are of the same number."
       },
       {
-        sub_title:"2. Click the roll button to roll the dices that aren’t locked",
-        description: ""
+        sub_title:"2. Lock a Dice",
+        description: "Choose a number and click all the dices that are of the same number to lock them down, so they won’t be rolled along with unlocked dices."
       },
       {
-        sub_title:"3. Try to break your personal record!",
-        description: ""
+        sub_title:"3. Roll",
+        description: "Click on ‘Roll’ button to roll the unlocked dices, until all the dices are the same number."
       },
+      {
+        sub_title:"4. Try to break your personal record!",
+        description: "A timer will go off once you start a game, and you will see your record once you win a game. It will also keep track of your best record, so keep trying!"
+      }
     ],
   },
 ];
@@ -509,21 +505,25 @@ export const railsProjects = [
     roles: "Full Stack Developer",
     code: "https://github.com/VivianBao/rails-task-manager",
     site: "https://task-manager-vb.herokuapp.com/",
-    sub_title: "",
-    story: "",
+    sub_title: "Your personal daily task manager",
+    story: "A task list that helps you keep track of all your tasks of the day with a simple and elegant layout. All features are instinctive that help you add, edit, or remove a task. ",
     features: [
       {
-        sub_title:"",
-        description: ""
+        sub_title:"1. View Your Task List",
+        description: "First thing you see on the homepage is a list of all your tasks. "
       },
       {
-        sub_title:"",
-        description: ""
+        sub_title:"2. Add or Edit a Task",
+        description: "If you have a new task, click on the ‘Add New Task’ button to create one. You can click on the task on the list to see notes. And if you would like to edit the content of the task, click the ‘edit’ button."
       },
       {
-        sub_title:"",
-        description: ""
+        sub_title:"3. Check out a Task",
+        description: "If you have completed a task, simply check the box and it will be marked as completed."
       },
+      {
+        sub_title:"4. Remove Completed Task",
+        description: "At the end of the day, you can remove all the completed tasks from your list."
+      }
     ],
   }
 ];
@@ -561,17 +561,13 @@ export const reactProjects = [
     story: "This project is originated from the exercises from Learn React tutorial from scrimba. A simple but fun quiz generator with a collection of questions about anime.",
     features: [
       {
-        sub_title:"1. Start Quiz",
-        description: ""
+        sub_title:"1. Select Answer",
+        description: "Each quiz will have randomly generated questions about anime. Select the answer by clicking on the choice you decide to go with."
       },
       {
-        sub_title:"2. Select Answer",
-        description: ""
-      },
-      {
-        sub_title:"3. Check Answer",
-        description: ""
-      },
+        sub_title:"2. Check Answer",
+        description: "After you’re confident to submit your answers, click on the button and see how many points you score! You can always start a new quiz if you would like to challenge again."
+      }
     ],
   },
   {
@@ -610,17 +606,21 @@ export const reactProjects = [
     story: "This project is originated from the exercises from Learn React tutorial from scrimba. Tenzies is a game that tests your reflex. To win this game, you need to roll the dices until they are of the same number, and the less time you take the better!",
     features: [
       {
-        sub_title:"1. Click and freeze dices to lock the number",
-        description: ""
+        sub_title:"1. How it works",
+        description: "To win this game, you need to roll the dices until they are of the same number."
       },
       {
-        sub_title:"2. Click the roll button to roll the dices that aren’t locked",
-        description: ""
+        sub_title:"2. Lock a Dice",
+        description: "Choose a number and click all the dices that are of the same number to lock them down, so they won’t be rolled along with unlocked dices."
       },
       {
-        sub_title:"3. Try to break your personal record!",
-        description: ""
+        sub_title:"3. Roll",
+        description: "Click on ‘Roll’ button to roll the unlocked dices, until all the dices are the same number."
       },
+      {
+        sub_title:"4. Try to break your personal record!",
+        description: "A timer will go off once you start a game, and you will see your record once you win a game. It will also keep track of your best record, so keep trying!"
+      }
     ],
   },
 ];

@@ -25,7 +25,7 @@ export default function ProjectPage() {
     return(
       {
         original: img.url,
-        originalHeight: 650,
+        originalHeight: img.type === "desktop" ? 700 : 600,
       }
     )
   })
@@ -88,7 +88,6 @@ export default function ProjectPage() {
           <iframe width="672" height="378" src="https://www.youtube.com/embed/OP88DtltO2Y?si=bBWxfzcUB036Vke1&amp;start=953&end=1392" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       ):(
-        <>
           <ImageGallery
             items={images}
             showBullets={true}
@@ -98,7 +97,6 @@ export default function ProjectPage() {
             showPlayButton={false}
             showFullscreenButton={false}
            />
-        </>
       )}
       </div>
     </div>

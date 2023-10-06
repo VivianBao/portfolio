@@ -2,20 +2,14 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 .photo-desktop {
-  // height: 100%;
-  // width: 100%;
-  // width: 700px;
-  // height: 560px;
-    width: 672px;
-    height: 537.6px;
+  width: 672px;
+  height: 537.6px;
   margin: -10% auto 20px auto;
   border-radius: 10px;
   background-size: cover;
 }
 
 .photo-mobile {
-  // width: 150px;
-  // height: 280px;
   width: 260px;
   height: 500px;
   margin: 0 auto;
@@ -25,13 +19,7 @@
 
 .preview-container{
   margin-top: 10vh;
-  // height: 80vh;
 }
-// .left-container{
-//   height: 100vh;
-//   // position: sticky;
-//   // top: 15px;
-// }
 
 .left-landing-container{
   height: 100vh;
@@ -45,9 +33,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // height: 20vh;
-  // width: 80%;
-  // margin: 0 auto;
   nav{
     display: flex;
     justify-content: center;
@@ -120,8 +105,8 @@
 
 .features-container{
   width: 90%;
-  margin: 0 auto;
-  min-height: 100vh;
+  margin: 80px auto 50px auto;
+  // min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,7 +116,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30vh;
+  margin-top: 35vh;
 }
 .left-container .icons {
   display: flex;

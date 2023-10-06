@@ -47,25 +47,11 @@ export default function About() {
             <div className="tech-stack-container">
               <h3>Tech Stack</h3>
               <div className="language-container">
-                {/* <div>
-                  <h5>Ruby</h5>
-                  <h5>Rails</h5>
-                  <h5>JavaScript</h5>
-                  <h5>React</h5>
-                  <h5>Express.js</h5>
-                </div>
-                <div>
-                  <h5>HTML5</h5>
-                  <h5>CSS</h5>
-                  <h5>Sass</h5>
-                  <h5>Bootstrap</h5>
-                </div> */}
                 {techStackElement}
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="transparent-block"></div> */}
     </div>
   )
 }
