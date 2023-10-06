@@ -21,20 +21,18 @@ export default function ProjectPage() {
     )
   })
 
-  const images =[
-    {
-      original: `${process.env.PUBLIC_URL + '/barter-mac.png'}`,
-      originalHeight: 650,
-    },
-    {
-      original: `${process.env.PUBLIC_URL + '/barter-mac.png'}`,
-      originalHeight: 650,
-    }
-  ]
+  const images = projectData.img_gallery?.map(img => {
+    return(
+      {
+        original: img.url,
+        originalHeight: 650,
+      }
+    )
+  })
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0)
-});
+  });
 
   return(
     <>

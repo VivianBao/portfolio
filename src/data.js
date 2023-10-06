@@ -57,6 +57,32 @@ export const featuredProjects = [
         type: "desktop"
       }
     ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/3.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/4.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/5.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/6.png'}`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
     description: "Find what you need, offer what you can",
     roles: "Back-end Lead | UX Designer",
@@ -90,6 +116,28 @@ export const featuredProjects = [
     img: [
       {
         url: `url(${process.env.PUBLIC_URL + '/quote_api.png'})`,
+        type: "desktop"
+      }
+    ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/quote-api/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quote-api/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quote-api/3.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quote-api/4.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quote-api/5.png'}`,
         type: "desktop"
       }
     ],
@@ -127,43 +175,61 @@ export const featuredProjects = [
       }
     ],
   },
-  {
-    id: 3,
-    title: 'Animu',
-    img: [
-      {
-        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
-        type: "desktop"
-      }
-    ],
-    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
-    description: "Find your next anime series to binge and create your own watch lists",
-    roles: "Full Stack Developer",
-    code: "https://github.com/VivianBao/Animu",
-    site: "https://animu-japan.herokuapp.com",
-    sub_title: "Build Your Own Anime Library",
-    story: "",
-    features: [
-      {
-        sub_title:"1. Create a Anime List",
-        description: ""
-      },
-      {
-        sub_title:"2. Add Anime to List",
-        description: ""
-      },
-      {
-        sub_title:"3. Browse the Recommended Anime",
-        description: ""
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: 'Animu',
+  //   img: [
+  //     {
+  //       url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
+  //       type: "desktop"
+  //     }
+  //   ],
+  //   tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+  //   description: "Find your next anime series to binge and create your own watch lists",
+  //   roles: "Full Stack Developer",
+  //   code: "https://github.com/VivianBao/Animu",
+  //   site: "https://animu-japan.herokuapp.com",
+  //   sub_title: "Build Your Own Anime Library",
+  //   story: "",
+  //   features: [
+  //     {
+  //       sub_title:"1. Create a Anime List",
+  //       description: ""
+  //     },
+  //     {
+  //       sub_title:"2. Add Anime to List",
+  //       description: ""
+  //     },
+  //     {
+  //       sub_title:"3. Browse the Recommended Anime",
+  //       description: ""
+  //     },
+  //   ],
+  // },
   {
     id: 5,
     title: 'Task Manager',
     img: [
       {
         url: `url(${process.env.PUBLIC_URL + '/task-manager-mac.png'})`,
+        type: "desktop"
+      }
+    ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/task-manager/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/task-manager/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/task-manager/3.png'}`,
+        type: "desktop"
+      },
+       {
+        url: `${process.env.PUBLIC_URL + '/task-manager/4.png'}`,
         type: "desktop"
       }
     ],
@@ -198,6 +264,20 @@ export const featuredProjects = [
         type: "mobile"
       }
     ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/quizzical/1.png'}`,
+        type: "mobile"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quizzical/2.png'}`,
+        type: "mobile"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quizzical/3.png'}`,
+        type: "mobile"
+      }
+    ],
     tags: ["React.js", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
     description: "Test your knowledge on a variety of fields!",
     roles: "Full Stack Developer",
@@ -226,6 +306,24 @@ export const featuredProjects = [
     img: [
       {
         url: `url(${process.env.PUBLIC_URL + '/tenzies-mac.png'})`,
+        type: "desktop"
+      }
+    ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/3.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/4.png'}`,
         type: "desktop"
       }
     ],
@@ -295,6 +393,32 @@ export const railsProjects = [
         type: "desktop"
       }
     ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/3.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/4.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/5.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/barter/6.png'}`,
+        type: "desktop"
+      }
+    ],
     tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
     description: "A platform for people to exchange goods without money",
     roles: "Back-end Lead | UX Designer",
@@ -322,43 +446,61 @@ export const railsProjects = [
       },
     ],
   },
-  {
-    id: 3,
-    title: 'Animu',
-    img: [
-      {
-        url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
-        type: "desktop"
-      }
-    ],
-    tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
-    description: "Find your next anime series to binge and create your own watch lists",
-    roles: "Full Stack Developer",
-    code: "https://github.com/VivianBao/Animu",
-    site: "https://animu-japan.herokuapp.com",
-    sub_title: "",
-    story: "",
-    features: [
-      {
-        sub_title:"",
-        description: ""
-      },
-      {
-        sub_title:"",
-        description: ""
-      },
-      {
-        sub_title:"",
-        description: ""
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: 'Animu',
+  //   img: [
+  //     {
+  //       url: `url(${process.env.PUBLIC_URL + '/animu-mac.png'})`,
+  //       type: "desktop"
+  //     }
+  //   ],
+  //   tags: ["Ruby", "Rails", "PostgreSQL", "HTML5", "CSS3", "Javascript", "Sass", "Bootstrap", "Figma"],
+  //   description: "Find your next anime series to binge and create your own watch lists",
+  //   roles: "Full Stack Developer",
+  //   code: "https://github.com/VivianBao/Animu",
+  //   site: "https://animu-japan.herokuapp.com",
+  //   sub_title: "",
+  //   story: "",
+  //   features: [
+  //     {
+  //       sub_title:"",
+  //       description: ""
+  //     },
+  //     {
+  //       sub_title:"",
+  //       description: ""
+  //     },
+  //     {
+  //       sub_title:"",
+  //       description: ""
+  //     },
+  //   ],
+  // },
   {
     id: 5,
     title: 'Task Manager',
     img: [
       {
         url: `url(${process.env.PUBLIC_URL + '/task-manager-mac.png'})`,
+        type: "desktop"
+      }
+    ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/task-manager/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/task-manager/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/task-manager/3.png'}`,
+        type: "desktop"
+      },
+       {
+        url: `${process.env.PUBLIC_URL + '/task-manager/4.png'}`,
         type: "desktop"
       }
     ],
@@ -396,6 +538,20 @@ export const reactProjects = [
         type: "mobile"
       }
     ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/quizzical/1.png'}`,
+        type: "mobile"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quizzical/2.png'}`,
+        type: "mobile"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/quizzical/3.png'}`,
+        type: "mobile"
+      }
+    ],
     tags: ["React.js", "HTML5", "CSS3", "Javascript", "Sass", "Figma"],
     description: "Test your knowledge on a variety of fields!",
     roles: "Full Stack Developer",
@@ -424,6 +580,24 @@ export const reactProjects = [
     img: [
       {
         url: `url(${process.env.PUBLIC_URL + '/tenzies-mac.png'})`,
+        type: "desktop"
+      }
+    ],
+    img_gallery: [
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/1.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/2.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/3.png'}`,
+        type: "desktop"
+      },
+      {
+        url: `${process.env.PUBLIC_URL + '/tenzies/4.png'}`,
         type: "desktop"
       }
     ],
