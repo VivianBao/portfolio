@@ -1,10 +1,10 @@
 import {useState, useEffect} from "react"
-import "../styles/Projects.scss";
+import "../../styles/Projects.scss";
 import Project from "./Project"
 import ProjectList from "./ProjectList"
 import {
   icons, featuredProjects, railsProjects, reactProjects
-} from "../data"
+} from "../../data"
 
 export default function Projects() {
   const [selected, setSelected] = useState('featured')

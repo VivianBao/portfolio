@@ -6,7 +6,15 @@ footer{
   color: $blue;
   // text-shadow: 0 0 2px rgb(179, 181, 170);
   background-color: rgba(179, 181, 170, 0.4);
-  width: 100vw;
+  width: 100%;
   position: absolute;
   bottom: 0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p{
+    margin:0;
+    font-weight: 300;
+  }
 }

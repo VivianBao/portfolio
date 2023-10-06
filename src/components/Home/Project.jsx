@@ -1,4 +1,6 @@
 import React from "react"
+import {Link} from "react-router-dom"
+import ProjectPage from "../Project/ProjectPage"
 
 export default function Project({projectData, icons}) {
 
@@ -16,15 +18,18 @@ export default function Project({projectData, icons}) {
         }}></div>
       </div>
       <div className="description">
-        <h3>{projectData.title}</h3>
-        <p className="content">{projectData.description}</p>
+        <div className="title">
+          <h3>{projectData.title}</h3>
+          <p className="content">{projectData.description}</p>
+        </div>
         <h5 className="roles">{projectData.roles}</h5>
         <div className="icons">
           {iconElements}
         </div>
         <div className="links">
-          { projectData.site && <a href={projectData.site} alt="site" target="_blank">View Site</a> }
+          {/* { projectData.site && <a href={projectData.site} alt="site" target="_blank">View Site</a> } */}
           <a href={projectData.code} alt="code" target="_blank">View Code</a>
+          <Link to={`/project/${projectData.id}`} state={{projectData: projectData}}>View Details</Link>
         </div>
       </div>
       <div className="project-card-info">
