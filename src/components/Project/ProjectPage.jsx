@@ -2,6 +2,7 @@ import { React, useLayoutEffect } from "react"
 import { useLocation } from 'react-router-dom'
 import '../../styles/ProjectPage.scss'
 import { icons } from "../../data"
+import ImageGallery from "react-image-gallery";
 
 export default function ProjectPage() {
   const location = useLocation()
@@ -19,6 +20,17 @@ export default function ProjectPage() {
       </div>
     )
   })
+
+  const images =[
+    {
+      original: `${process.env.PUBLIC_URL + '/barter-mac.png'}`,
+      originalHeight: 650,
+    },
+    {
+      original: `${process.env.PUBLIC_URL + '/barter-mac.png'}`,
+      originalHeight: 650,
+    }
+  ]
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0)
@@ -78,7 +90,17 @@ export default function ProjectPage() {
           <iframe width="672" height="378" src="https://www.youtube.com/embed/OP88DtltO2Y?si=bBWxfzcUB036Vke1&amp;start=953&end=1392" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       ):(
-        <></>
+        <>
+          <ImageGallery
+            items={images}
+            showBullets={true}
+            // showIndex={true}
+            showThumbnails={false}
+            lazyLoad={true}
+            showPlayButton={false}
+            showFullscreenButton={false}
+           />
+        </>
       )}
       </div>
     </div>

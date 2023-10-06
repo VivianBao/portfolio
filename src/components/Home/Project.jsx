@@ -29,7 +29,7 @@ export default function Project({projectData, icons}) {
         <div className="links">
           {/* { projectData.site && <a href={projectData.site} alt="site" target="_blank">View Site</a> } */}
           <a href={projectData.code} alt="code" target="_blank">View Code</a>
-          <Link to={`/project/${projectData.id}`} state={{projectData: projectData}}>To project page</Link>
+          <Link to={`/project/${projectData.id}`} state={{projectData: projectData}}>View Details</Link>
         </div>
       </div>
       <div className="project-card-info">
